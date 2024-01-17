@@ -4,7 +4,7 @@ A smart sock that can collect temperature, pressure, motion ( x,y,z axis and coo
 <a class="top-link hide" href="#top">↑</a>
 <a name="top"></a>
 
-#Table of Contents <a name "table"></a>
+# Table of Contents <a name "table"></a>
 1. [Introduction](#introduction)
 2. [Currently Working on](#current)
 3. [Pressure Sensor](#pressure)
