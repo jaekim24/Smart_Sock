@@ -20,9 +20,9 @@ A smart sock that can collect temperature, pressure, motion ( x,y,z axis and coo
         1. video talking about [it](https://www.youtube.com/watch?v=uVS2WyRxELw).
         2. Reseach [paper](https://www.researchgate.net/publication/295396824_Paper_Skin_Multisensory_Platform_for_Simultaneous_Environmental_Monitoring)
 
-## Making the temp and pressure sensor <a name = "diysensor"></a>
+# Making the temp and pressure sensor <a name = "diysensor"></a>
 
-# DIY pressure pad sensor with condutive threads and piezo-resistive conductive sheet <a name= "pressure"></a> <a class="top-link hide" href="#table">↑</a>
+## DIY pressure pad sensor with condutive threads and piezo-resistive conductive sheet <a name= "pressure"></a> <a class="top-link hide" href="#table">↑</a>
 
 
 Piezo-resistive conductive sheet works by decreasing the resistance of the sheet when force is being exerted on to it allowing the current to flow through it. 
@@ -38,7 +38,7 @@ Another thing to consider is when conductive threads or fabrics are stretched or
 2. Making pressure sensor with code [link](https://www.kobakant.at/DIY/?p=7639)
 3. <img width="583" alt="Screenshot 2024-01-17 at 1 49 38 PM" src="https://github.com/jaekim24/Smart_Sock/assets/62858192/b55459c6-325d-4982-8c53-6823d05c908f">
 
-# DIY temp sensor <a name = "temp"></a> <a class="top-link hide" href="#table">↑</a>
+## DIY temp sensor <a name = "temp"></a> <a class="top-link hide" href="#table">↑</a>
 
 Heat increases the resistance of a wire. [Research paper](https://www.researchgate.net/publication/295396824_Paper_Skin_Multisensory_Platform_for_Simultaneous_Environmental_Monitoring) has a section about making a temp sensor with a conductive pen and a sticky note. 
 
