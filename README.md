@@ -12,10 +12,8 @@ A smart sock that can collect temperature, pressure, motion ( x,y,z axis and coo
 # To do thursday 
 1. work on pressure sensor
 
-# Currently Working On <a name = "current"></a>]
-
-
-
+# Currently Working On <a name = "current"></a> <a class="top-link hide" href="#top">↑</a>
+<a name="top"></a>
 1. making a pressure, humidity, and temp sensor. Maybe acidity (ph) sensor. 
     1. because it'll be smaller, flexable, and more comfortable to have in the sock.
         1. video talking about [it](https://www.youtube.com/watch?v=uVS2WyRxELw).
