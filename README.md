@@ -22,9 +22,9 @@ Another thing to consider is when conductive threads or fabrics are stretched or
 
 1. Easy to make with [condutive threads](https://www.sparkfun.com/products/10867) and [Piezo-resistive condutive sheet](https://www.adafruit.com/product/1361)
 
-2. <img width="501" alt="Screenshot 2024-01-13 at 12 44 29 AM" src="https://github.com/jaekim24/Smart-Socks/assets/62858192/aae2f47d-192b-4106-9394-11bd43b106d1">
-  - <img width="465" alt="Screenshot 2024-01-13 at 12 37 41 AM" src="https://github.com/jaekim24/Smart-Socks/assets/62858192/38d6f5fa-df91-425c-908a-3c3c6cd8d004">
-  - <img width="465" alt="Screenshot 2024-01-13 at 12 37 57 AM" src="https://github.com/jaekim24/Smart-Socks/assets/62858192/a5a8e198-a25d-4d2c-8281-eb0f58647e4d">
+2. Making pressure sensor [link](https://www.kobakant.at/DIY/?p=7639)
+3. <img width="583" alt="Screenshot 2024-01-17 at 1 49 38 PM" src="https://github.com/jaekim24/Smart_Sock/assets/62858192/b55459c6-325d-4982-8c53-6823d05c908f">
+
 
 
 
