@@ -17,7 +17,7 @@ A smart sock that can collect temperature, pressure, motion ( x,y,z axis and coo
         1. video talking about [it](https://www.youtube.com/watch?v=uVS2WyRxELw).
         2. Reseach [paper](https://www.researchgate.net/publication/295396824_Paper_Skin_Multisensory_Platform_for_Simultaneous_Environmental_Monitoring)
 
-# DIY pressure pad sensor with condutive threads and piezo-resistive conductive sheet <a name= "pressure"></a> 
+# DIY pressure pad sensor with condutive threads and piezo-resistive conductive sheet <a name= "pressure"></a> <a class="top-link hide" href="#table">↑</a>
 
 
 Piezo-resistive conductive sheet works by decreasing the resistance of the sheet when force is being exerted on to it allowing the current to flow through it. 
