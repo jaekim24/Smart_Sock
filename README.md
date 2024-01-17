@@ -44,7 +44,7 @@ Heat increases the resistance of a wire. [Research paper](https://www.researchga
 
 <img width="583" alt="Screenshot 2024-01-17 at 2 25 13 PM" src="https://github.com/jaekim24/Smart_Sock/assets/62858192/12e8bd84-4b35-4468-bad7-3690acb26f83">
 
-# Reseach Papers <a name = "research"></a>
+# Reseach Papers <a name = "research"></a> <a class="top-link hide" href="#table">↑</a>
 1. 
 
  
