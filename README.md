@@ -5,8 +5,9 @@ A smart sock that can collect temperature, pressure, motion ( x,y,z axis and coo
 # Table of Contents <a name = "table"></a>
 1. [Introduction](#introduction)
 2. [Currently Working on](#current)
-3. [Pressure Sensor](#pressure)
-4. [Temp Sensor](#temp)
+3. [Making temp/pressure sensors](#diysensor)
+    1. [Pressure Sensor](#pressure)
+    2. [Temp Sensor](#temp)
 
 # To do thursday 
 1. work on pressure sensor
@@ -17,6 +18,8 @@ A smart sock that can collect temperature, pressure, motion ( x,y,z axis and coo
     1. because it'll be smaller, flexable, and more comfortable to have in the sock.
         1. video talking about [it](https://www.youtube.com/watch?v=uVS2WyRxELw).
         2. Reseach [paper](https://www.researchgate.net/publication/295396824_Paper_Skin_Multisensory_Platform_for_Simultaneous_Environmental_Monitoring)
+
+# Making the temp and pressure sensor <a name = "diysensor"></a>
 
 # DIY pressure pad sensor with condutive threads and piezo-resistive conductive sheet <a name= "pressure"></a> <a class="top-link hide" href="#table">↑</a>
 
