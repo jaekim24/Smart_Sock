@@ -40,7 +40,7 @@ Another thing to consider is when conductive threads or fabrics are stretched or
 
 ## DIY temp sensor <a name = "temp"></a> <a class="top-link hide" href="#table">↑</a>
 
-Heat increases the resistance of a wire. [Research paper](https://www.researchgate.net/publication/295396824_Paper_Skin_Multisensory_Platform_for_Simultaneous_Environmental_Monitoring) has a section about making a temp sensor with a conductive pen and a sticky note. 
+When heat increases, the resistance of a wire increases as well. [Research paper](https://www.researchgate.net/publication/295396824_Paper_Skin_Multisensory_Platform_for_Simultaneous_Environmental_Monitoring) has a section about making a temp sensor with a conductive pen and a sticky note. 
 
 <img width="583" alt="Screenshot 2024-01-17 at 2 25 13 PM" src="https://github.com/jaekim24/Smart_Sock/assets/62858192/12e8bd84-4b35-4468-bad7-3690acb26f83">
 
