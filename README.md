@@ -2,8 +2,7 @@
 A smart sock that can collect temperature, pressure, motion ( x,y,z axis and coordinates , and acceleration) , humidity, and is able to vibrate. I created this to have many variety of data to be used to predict if the person wearing the sock is at a high risk for dietetic foot or other risks with deep learning. 
 
 
-
-#Table of Contents
+#Table of Contents <a name "table"></a>
 1. [Introduction](#introduction)
 2. [Currently Working on](#current)
 3. [Pressure Sensor](#pressure)
@@ -11,8 +10,8 @@ A smart sock that can collect temperature, pressure, motion ( x,y,z axis and coo
 # To do thursday 
 1. work on pressure sensor
 
-# Currently Working On <a name = "current"></a> <a class="top-link hide" href="#top">↑</a>
-<a name="top"></a>
+# Currently Working On <a name = "current"></a> <a class="top-link hide" href="#table">↑</a>
+
 
 1. making a pressure, humidity, and temp sensor. Maybe acidity (ph) sensor. 
     1. because it'll be smaller, flexable, and more comfortable to have in the sock.
