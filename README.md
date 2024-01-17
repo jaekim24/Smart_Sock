@@ -1,36 +1,3 @@
-/* Enable smooth scrolling */
-@media screen and (prefers-reduced-motion: no-preference) {
-  html {
-    scroll-behavior: smooth;
-  }
-}
-
-/* Style the button */
-.top-link {
-  transition:       all .25s ease-in-out;
-  position:         fixed;
-  bottom:           0;
-  right:            0;
-  display:          inline-flex;
-  color:            #000000;
-
-  cursor:           pointer;
-  align-items:      center;
-  justify-content:  center;
-  margin:           0 2em 2em 0;
-  border-radius:    50%;
-  padding:          .25em;
-  width:            1em;
-  height:           1em;
-  background-color: #F8F8F8;
-}
-
-
-
-
-
-
-
 # Smart-Socks <a name="introduction"></a>
 A smart sock that can collect temperature, pressure, motion ( x,y,z axis and coordinates , and acceleration) , humidity, and is able to vibrate. I created this to have many variety of data to be used to predict if the person wearing the sock is at a high risk for dietetic foot or other risks with deep learning. 
 
