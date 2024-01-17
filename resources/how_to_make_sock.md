@@ -14,3 +14,5 @@
     1. get resistance with arduino [link](https://circuits4you.com/2016/05/13/arduino-resistance-measurement/)
     2. <img width="619" alt="Screenshot 2024-01-14 at 5 01 42 PM" src="https://github.com/jaekim24/Smart-Socks/assets/62858192/83927084-a6de-4c4b-b6ce-102522a15faa">
 
+4. getting analog reading for a sensor : [link](https://www.youtube.com/watch?v=1p8AE_QA8qQ)
+
