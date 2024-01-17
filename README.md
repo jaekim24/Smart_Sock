@@ -1,7 +1,41 @@
+/* Enable smooth scrolling */
+@media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Style the button */
+.top-link {
+  transition:       all .25s ease-in-out;
+  position:         fixed;
+  bottom:           0;
+  right:            0;
+  display:          inline-flex;
+  color:            #000000;
+
+  cursor:           pointer;
+  align-items:      center;
+  justify-content:  center;
+  margin:           0 2em 2em 0;
+  border-radius:    50%;
+  padding:          .25em;
+  width:            1em;
+  height:           1em;
+  background-color: #F8F8F8;
+}
+
+
+
+
+
+
+
 # Smart-Socks <a name="introduction"></a>
 A smart sock that can collect temperature, pressure, motion ( x,y,z axis and coordinates , and acceleration) , humidity, and is able to vibrate. I created this to have many variety of data to be used to predict if the person wearing the sock is at a high risk for dietetic foot or other risks with deep learning. 
 
-<a class="top-link hide" href="#table">↑</a>
+<a class="top-link hide" href="#top">↑</a>
+<a name="top"></a>
 
 #Table of Contents <a name "table"></a>
 1. [Introduction](#introduction)
@@ -11,7 +45,7 @@ A smart sock that can collect temperature, pressure, motion ( x,y,z axis and coo
 # To do thursday 
 1. work on pressure sensor
 
-# Currently Working On <a name = "current"></a> [↑](#table)
+# Currently Working On <a name = "current"></a>]
 
 
 
@@ -20,7 +54,7 @@ A smart sock that can collect temperature, pressure, motion ( x,y,z axis and coo
         1. video talking about [it](https://www.youtube.com/watch?v=uVS2WyRxELw).
         2. Reseach [paper](https://www.researchgate.net/publication/295396824_Paper_Skin_Multisensory_Platform_for_Simultaneous_Environmental_Monitoring)
 
-# DIY pressure pad sensor with condutive threads and piezo-resistive conductive sheet <a name= "pressure"></a> [↑](#table)
+# DIY pressure pad sensor with condutive threads and piezo-resistive conductive sheet <a name= "pressure"></a> 
 
 
 Piezo-resistive conductive sheet works by decreasing the resistance of the sheet when force is being exerted on to it allowing the current to flow through it. 
