@@ -19,7 +19,7 @@ A smart sock that can collect temperature, pressure, motion ( x,y,z axis and coo
     1. because it'll be smaller, flexable, and more comfortable to have in the sock.
         1. video talking about [it](https://www.youtube.com/watch?v=uVS2WyRxELw).
         2. Reseach [paper](https://www.researchgate.net/publication/295396824_Paper_Skin_Multisensory_Platform_for_Simultaneous_Environmental_Monitoring)
-                1. https://www.youtube.com/watch?v=DKAtv-m32v8
+       
 
 # Making the temp and pressure sensor <a name = "diysensor"></a>
 
@@ -41,6 +41,7 @@ Another thing to consider is when conductive threads or fabrics are stretched or
 4. similar projects
     1. https://github.com/s8simund/Pressure-Sensor-Matrix
     2. https://www.youtube.com/watch?v=DKAtv-m32v8
+        3. https://www.youtube.com/watch?v=DKAtv-m32v8
 
 ## DIY temp sensor <a name = "temp"></a> <a class="top-link hide" href="#table">↑</a>
 
