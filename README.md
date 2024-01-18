@@ -46,6 +46,9 @@ When heat increases, the resistance of a wire increases as well. [Research paper
 
 <img width="583" alt="Screenshot 2024-01-17 at 2 25 13 PM" src="https://github.com/jaekim24/Smart_Sock/assets/62858192/12e8bd84-4b35-4468-bad7-3690acb26f83">
 
+1. similar projects
+    1. https://github.com/joeybronner/temperature-sensor-8x8matrix 
+
 # Reseach Papers <a name = "research"></a> <a class="top-link hide" href="#table">↑</a>
 1. Talks about making humidity, temp, and pressure sensor. [link](https://www.researchgate.net/publication/295396824_Paper_Skin_Multisensory_Platform_for_Simultaneous_Environmental_Monitoring)
 2. 
