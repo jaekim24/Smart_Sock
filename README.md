@@ -38,7 +38,8 @@ Another thing to consider is when conductive threads or fabrics are stretched or
 2. Making pressure sensor with code [link](https://www.kobakant.at/DIY/?p=7639)
 3. <img width="583" alt="Screenshot 2024-01-17 at 1 49 38 PM" src="https://github.com/jaekim24/Smart_Sock/assets/62858192/b55459c6-325d-4982-8c53-6823d05c908f">
 4. similar projects
-    1. https://github.com/s8simund/Pressure-Sensor-Matrix 
+    1. https://github.com/s8simund/Pressure-Sensor-Matrix
+    2. https://www.youtube.com/watch?v=DKAtv-m32v8
 
 ## DIY temp sensor <a name = "temp"></a> <a class="top-link hide" href="#table">↑</a>
 
