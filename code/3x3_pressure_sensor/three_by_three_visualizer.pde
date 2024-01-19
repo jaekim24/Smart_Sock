@@ -1,5 +1,5 @@
-// this code is straight from https://www.kobakant.at/DIY/?p=7943, I am storing this to archive it
 /*
+copied this from https://www.kobakant.at/DIY/?p=7943
 Code based on Tom Igoe’s Serial Graphing Sketch
 >> http://wiki.processing.org/w/Tom_Igoe_Interview
 Reads X analog inputs and visualizes them by drawing a grid
