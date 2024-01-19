@@ -23,7 +23,8 @@ void setup() {
   rectSize = width / rows;
 
   println(Serial.list()); // List all the available serial ports
-  String portName = "/dev/cu.usbmodem142401"; //Serial.list()[1]; // set the number of your serial port!
+  String portName = Serial.list()[3]; // set the number of your serial port!
+  print(portName);
   myPort = new Serial(this, portName, 9600);
   myPort.clear();
   myPort.bufferUntil('\n'); // don’t generate a serialEvent() until you get a newline (\n) byte
@@ -46,7 +47,6 @@ void serialEvent(Serial myPort) {
   String inString = myPort.readStringUntil('\n'); // get the ASCII string
   if (inString != null) { // if it’s not empty
     inString = trim(inString); // trim off any whitespace
-    println(inString);
 
     int incomingValues[] = int(split(inString, " ")); // convert to an array of ints
   
@@ -54,9 +54,8 @@ void serialEvent(Serial myPort) {
       for (int i = 0; i < incomingValues.length; i++) {
         // map the incoming values (0 to 1023) to an appropriate grayscale range (0-255):
         sensorValue[i] = map(incomingValues[i], 0, 1023, 0, 255); //stretch 5x5
-        println(sensorValue[i]); // print value to see
+        //println(sensorValue[i]); // print value to see
       }
     }
   }
 }
-

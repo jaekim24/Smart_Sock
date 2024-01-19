@@ -7,7 +7,7 @@
 #define sensorPoints numRows*numCols
 
 int rows[] = {A0, A1, A2};
-int cols[] = {5,6,7};
+int cols[] = {10,11,12};
 int incomingValues[sensorPoints] = {};
 
 void setup() {
