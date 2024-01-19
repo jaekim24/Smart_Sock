@@ -1,17 +1,17 @@
 /*
 copied this from https://www.kobakant.at/DIY/?p=7943
-Code based on Tom Igoe’s Serial Graphing Sketch
->> http://wiki.processing.org/w/Tom_Igoe_Interview
-Reads X analog inputs and visualizes them by drawing a grid
-using grayscale shading of each square to represent sensor value.
->> http://howtogetwhatyouwant.at/
-*/
+ Code based on Tom Igoe’s Serial Graphing Sketch
+ >> http://wiki.processing.org/w/Tom_Igoe_Interview
+ Reads X analog inputs and visualizes them by drawing a grid
+ using grayscale shading of each square to represent sensor value.
+ >> http://howtogetwhatyouwant.at/
+ */
 
 import processing.serial.*;
 
 Serial myPort; // The serial port
-int rows = 10;
-int cols = 10;
+int rows = 3;
+int cols = 3;
 int maxNumberOfSensors = rows * cols;
 float[] sensorValue = new float[maxNumberOfSensors]; // global variable for storing mapped sensor values
 float[] previousValue = new float[maxNumberOfSensors]; // array of previous values
@@ -23,7 +23,7 @@ void setup() {
   rectSize = width / rows;
 
   println(Serial.list()); // List all the available serial ports
-  String portName = Serial.list()[1]; // set the number of your serial port!
+  String portName = "/dev/cu.usbmodem142401"; //Serial.list()[1]; // set the number of your serial port!
   myPort = new Serial(this, portName, 9600);
   myPort.clear();
   myPort.bufferUntil('\n'); // don’t generate a serialEvent() until you get a newline (\n) byte
@@ -44,15 +44,16 @@ void draw() {
 
 void serialEvent(Serial myPort) {
   String inString = myPort.readStringUntil('\n'); // get the ASCII string
-  println("test");
   if (inString != null) { // if it’s not empty
     inString = trim(inString); // trim off any whitespace
-    int incomingValues[] = int(split(inString, "\t")); // convert to an array of ints
+    println(inString);
 
+    int incomingValues[] = int(split(inString, " ")); // convert to an array of ints
+  
     if (incomingValues.length <= maxNumberOfSensors && incomingValues.length > 0) {
       for (int i = 0; i < incomingValues.length; i++) {
         // map the incoming values (0 to 1023) to an appropriate grayscale range (0-255):
-        sensorValue[i] = map(incomingValues[i], 0, 1023, 0, 255); // stretch 5×5
+        sensorValue[i] = map(incomingValues[i], 0, 1023, 0, 255)*21; // supposed to work without the "*21" but it was inverting the nums idk why
         println(sensorValue[i]); // print value to see
       }
     }
