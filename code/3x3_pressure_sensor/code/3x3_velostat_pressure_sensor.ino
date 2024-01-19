@@ -47,7 +47,7 @@ void loop()
     Serial.print(incomingValues[i]);
     if (i < sensorPoints - 1)
     {
-      Serial.print("    ");
+      Serial.print(" ");
     }
     
    }
