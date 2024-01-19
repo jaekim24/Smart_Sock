@@ -53,7 +53,7 @@ void serialEvent(Serial myPort) {
     if (incomingValues.length <= maxNumberOfSensors && incomingValues.length > 0) {
       for (int i = 0; i < incomingValues.length; i++) {
         // map the incoming values (0 to 1023) to an appropriate grayscale range (0-255):
-        sensorValue[i] = map(incomingValues[i], 0, 1023, 0, 255);
+        sensorValue[i] = map(incomingValues[i], 0, 1023, 0, 255); //stretch 5x5
         println(sensorValue[i]); // print value to see
       }
     }
