@@ -37,10 +37,11 @@ Another thing to consider is when conductive threads or fabrics are stretched or
 1. Easy to make with [condutive threads](https://www.sparkfun.com/products/10867) and [Piezo-resistive condutive sheet](https://www.adafruit.com/product/1361)
 
 2. Example code of a 3x3 force based variable resister pressure sensor. [link](https://www.kobakant.at/DIY/?p=7943)
-3. Image of an example of making a pressure sensor with soft fabrics. [link](https://www.kobakant.at/DIY/?p=7651)
-4. Example of a woven pressure sensor. [link](https://www.kobakant.at/DIY/?p=6005)
-5. <img width="583" alt="Screenshot 2024-01-17 at 1 49 38 PM" src="https://github.com/jaekim24/Smart_Sock/assets/62858192/b55459c6-325d-4982-8c53-6823d05c908f">
-6. similar projects
+3. 7x7 velostat pressure sensor with code [link](https://www.kobakant.at/DIY/?p=7443)
+4. Image of an example of making a pressure sensor with soft fabrics. [link](https://www.kobakant.at/DIY/?p=7651)
+5. Example of a woven pressure sensor. [link](https://www.kobakant.at/DIY/?p=6005)
+6. <img width="583" alt="Screenshot 2024-01-17 at 1 49 38 PM" src="https://github.com/jaekim24/Smart_Sock/assets/62858192/b55459c6-325d-4982-8c53-6823d05c908f">
+7. similar projects
     1. https://github.com/s8simund/Pressure-Sensor-Matrix
     2. https://www.youtube.com/watch?v=DKAtv-m32v8
         1.https://github.com/mfdesimone/DizzyDevices/blob/89409fda8e8669ff927876ba7025636fd38e9a10/225_touchGrid0.42/225_touchGrid0.42.ino
