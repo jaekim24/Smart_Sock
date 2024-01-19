@@ -36,7 +36,7 @@ Another thing to consider is when conductive threads or fabrics are stretched or
 
 1. Easy to make with [condutive threads](https://www.sparkfun.com/products/10867) and [Piezo-resistive condutive sheet](https://www.adafruit.com/product/1361)
 
-2. Making pressure sensor with code [link](https://www.kobakant.at/DIY/?p=7639)
+2. Example code of a 3x3 force based variable resister pressure sensor. [link](https://www.kobakant.at/DIY/?p=7943)
 3. <img width="583" alt="Screenshot 2024-01-17 at 1 49 38 PM" src="https://github.com/jaekim24/Smart_Sock/assets/62858192/b55459c6-325d-4982-8c53-6823d05c908f">
 4. similar projects
     1. https://github.com/s8simund/Pressure-Sensor-Matrix
