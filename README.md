@@ -42,6 +42,7 @@ Another thing to consider is when conductive threads or fabrics are stretched or
     1. https://github.com/s8simund/Pressure-Sensor-Matrix
     2. https://www.youtube.com/watch?v=DKAtv-m32v8
         1.https://github.com/mfdesimone/DizzyDevices/blob/89409fda8e8669ff927876ba7025636fd38e9a10/225_touchGrid0.42/225_touchGrid0.42.ino
+    3. https://www.kobakant.at/DIY/?p=3314
 
 ## DIY temp sensor <a name = "temp"></a> <a class="top-link hide" href="#table">↑</a>
 
