@@ -1,4 +1,4 @@
-// rows: for each row connect to 1k ohm resistors which all connects to the ground
+ // rows: for each row connect to 1k ohm resistors which all connects to the 5v
 // rows: also connect each to the analog pins
 // cols: connect each to the digital pins 
 
@@ -6,8 +6,8 @@
 #define numCols 3
 #define sensorPoints numRows*numCols
 
-int rows[] = {A0, A1, A2};
-int cols[] = {10,11,12};
+int cols[] = {A0, A1, A2};//,A4,A5,A6,A7};
+int rows[] = {2,3,4};//,5,6,7,8,9};
 int incomingValues[sensorPoints] = {};
 
 void setup() {

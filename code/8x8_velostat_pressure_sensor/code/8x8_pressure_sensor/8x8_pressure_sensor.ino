@@ -49,9 +49,9 @@ void loop() {
     Serial.print(incomingValues[i]);
     if (i < sensorPoints - 1)
       Serial.print("   "); // doesnt append space after last number 
-    if (i == 7 || (i-7) % 8 == 0 ){
+    /*if (i == 7 || (i-7) % 8 == 0 ){
       Serial.println();        // prints one row at a time 
-    }
+    }*/
   }
   Serial.println();
   delay(10);

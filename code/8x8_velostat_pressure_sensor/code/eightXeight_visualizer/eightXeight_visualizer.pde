@@ -10,18 +10,20 @@ using grayscale shading of each square to represent sensor value.
 import processing.serial.*;
 
 Serial myPort; // The serial port
-int maxNumberOfSensors = 49;
+int maxNumberOfSensors = 64;
 float[] sensorValue = new float[maxNumberOfSensors]; // global variable for storing mapped sensor values
 float[] previousValue = new float[maxNumberOfSensors]; // array of previous values
 int rectSize = 0;
 int rectY;
+int num_of_rows =8 ;
 
 void setup() {
   size(600, 600); // set up the window to whatever size you want
-  rectSize = width / 7;
+  rectSize = width / num_of_rows;
 
-  println(Serial.list()); // List all the available serial ports
-  String portName = Serial.list()[2];
+  //println(Serial.list()); // List all the available serial ports
+  //String portName = Serial.list()[2];
+  String portName = "/dev/cu.usbserial-14210";
   myPort = new Serial(this, portName, 9600);
   myPort.clear();
   myPort.bufferUntil('\n'); // don’t generate a serialEvent() until you get a newline (\n) byte
@@ -33,10 +35,10 @@ void setup() {
 void draw() {
   for (int i = 0; i < maxNumberOfSensors; i++) {
     fill(sensorValue[i]);
-    rect(rectSize * (i % 7), rectY, rectSize, rectSize); // top left
-    if ((i + 1) % 7 == 0)
+    rect(rectSize * (i % num_of_rows), rectY, rectSize, rectSize); // top left
+    if ((i + 1) % num_of_rows == 0)
       rectY += rectSize;
-    println(rectY);
+   // println(rectY);
   }
   rectY = 0;
 }
@@ -45,7 +47,8 @@ void serialEvent(Serial myPort) {
   String inString = myPort.readStringUntil('\n'); // get the ASCII string
   if (inString != null) { // if it's not empty
     inString = trim(inString); // trim off any whitespace
-    int incomingValues[] = int(split(inString, "\t")); // convert to an array of ints
+    int incomingValues[] = int(split(inString, "   ")); // convert to an array of ints
+
     if (incomingValues.length <= maxNumberOfSensors && incomingValues.length > 0) {
       for (int i = 0; i < incomingValues.length; i++) {
         // map the incoming values (0 to 1023) to an appropriate gray-scale range (0-255):
@@ -55,4 +58,3 @@ void serialEvent(Serial myPort) {
     }
   }
 }
-
