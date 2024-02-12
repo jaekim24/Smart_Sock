@@ -1,6 +1,9 @@
 import flask
 import requests
 
+#post data to give to database
+#
+
 app = flask.Flask(__name__)
 
 # to display the connection status
@@ -21,6 +24,7 @@ def extract_name(name):
 # this commands the script to run in the given port
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000, debug=True)
+
 
 
 
